@@ -42,7 +42,7 @@
   <soap:binding style="rpc" transport="http://schemas.xmlsoap.org/soap/http"/>
   <operation name="suma">
     <soap:operation 
-      soapAction="http://localhost:90/soap/calculadorawsdl/server2.php?method=suma"
+      soapAction="http://localhost:90/soap/calculadorawsdl/server.php?method=suma"
     />
     <input>
      <soap:body 
@@ -61,7 +61,7 @@
   </operation>
   <operation name="resta">
     <soap:operation 
-      soapAction="http://localhost:90/soap/calculadorawsdl/server2.php?method=resta"
+      soapAction="http://localhost:90/soap/calculadorawsdl/server.php?method=resta"
     />
     <input>
      <soap:body 
